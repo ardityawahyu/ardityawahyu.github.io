@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>ardityawahyu.github.io/blog/</loc>
+    <lastmod>2020-08-23T19:04:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>ardityawahyu.github.io/tech/git-maybe-for-you/</loc>
+    <lastmod>2020-08-23T19:04:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>ardityawahyu.github.io/</loc>
+    <lastmod>2020-08-23T19:04:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>ardityawahyu.github.io/tech/</loc>
+    <lastmod>2020-08-23T19:04:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>ardityawahyu.github.io/blog/thing-i-learned-at-kitabisa-git/</loc>
+    <lastmod>2020-08-23T19:04:00+07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>ardityawahyu.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>ardityawahyu.github.io/tags/</loc>
+  </url>
+  
+</urlset>
