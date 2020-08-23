@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Personal Site</title>
-    <link>ardityawahyu.github.io/blog/</link>
+    <link>https://ardityawahyu.github.io/blog/</link>
     <description>Recent content in Blogs on Personal Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 23 Aug 2020 19:04:00 +0700</lastBuildDate>
     
-	<atom:link href="ardityawahyu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ardityawahyu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Thing I Learned at Kitabisa: Git</title>
-      <link>ardityawahyu.github.io/blog/thing-i-learned-at-kitabisa-git/</link>
+      <link>https://ardityawahyu.github.io/blog/thing-i-learned-at-kitabisa-git/</link>
       <pubDate>Sun, 23 Aug 2020 19:04:00 +0700</pubDate>
       
-      <guid>ardityawahyu.github.io/blog/thing-i-learned-at-kitabisa-git/</guid>
+      <guid>https://ardityawahyu.github.io/blog/thing-i-learned-at-kitabisa-git/</guid>
       <description>Iya, Git yang ini. Buat mereka yang dekat dengan kehidupan software development seharusnya ngga asing dengan makhluk ini.</description>
     </item>
     
