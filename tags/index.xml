@@ -6,9 +6,28 @@
     <description>Recent content in Tags on Personal Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2020 19:04:00 +0700</lastBuildDate>
     
 	<atom:link href="https://ardityawahyu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>git</title>
+      <link>https://ardityawahyu.github.io/tags/git/</link>
+      <pubDate>Sun, 23 Aug 2020 19:04:00 +0700</pubDate>
+      
+      <guid>https://ardityawahyu.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>legacy</title>
+      <link>https://ardityawahyu.github.io/tags/legacy/</link>
+      <pubDate>Sun, 23 Aug 2020 19:04:00 +0700</pubDate>
+      
+      <guid>https://ardityawahyu.github.io/tags/legacy/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

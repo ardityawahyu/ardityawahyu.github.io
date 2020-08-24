@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>legacy on Personal Site</title>
+    <link>https://ardityawahyu.github.io/tags/legacy/</link>
+    <description>Recent content in legacy on Personal Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 23 Aug 2020 19:04:00 +0700</lastBuildDate>
+    
+	<atom:link href="https://ardityawahyu.github.io/tags/legacy/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git (maybe) for You</title>
+      <link>https://ardityawahyu.github.io/tech/git-maybe-for-you/</link>
+      <pubDate>Sun, 23 Aug 2020 19:04:00 +0700</pubDate>
+      
+      <guid>https://ardityawahyu.github.io/tech/git-maybe-for-you/</guid>
+      <description>This post is related to my personal blog post here. So, let&amp;rsquo;s just start it.</description>
+    </item>
+    
+    <item>
+      <title>Thing I Learned at Kitabisa: Git</title>
+      <link>https://ardityawahyu.github.io/blog/thing-i-learned-at-kitabisa-git/</link>
+      <pubDate>Sun, 23 Aug 2020 19:04:00 +0700</pubDate>
+      
+      <guid>https://ardityawahyu.github.io/blog/thing-i-learned-at-kitabisa-git/</guid>
+      <description>Iya, Git yang ini. Buat mereka yang dekat dengan kehidupan software development seharusnya ngga asing dengan makhluk ini.</description>
+    </item>
+    
+  </channel>
+</rss>
