@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teches on Personal Site</title>
-    <link>https://ardityawahyu.github.io/tech/</link>
-    <description>Recent content in Teches on Personal Site</description>
+    <title>engineering manager on Personal Site</title>
+    <link>https://ardityawahyu.github.io/tags/engineering-manager/</link>
+    <description>Recent content in engineering manager on Personal Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 09 Sep 2020 17:07:00 +0700</lastBuildDate>
     
-	<atom:link href="https://ardityawahyu.github.io/tech/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ardityawahyu.github.io/tags/engineering-manager/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://ardityawahyu.github.io/tech/how-i-fail-managing-engineer-team/</guid>
       <description>It is always a dilemma whether staying as an active coder or being manager.</description>
-    </item>
-    
-    <item>
-      <title>Git (maybe) for You</title>
-      <link>https://ardityawahyu.github.io/tech/git-maybe-for-you/</link>
-      <pubDate>Sun, 23 Aug 2020 19:04:00 +0700</pubDate>
-      
-      <guid>https://ardityawahyu.github.io/tech/git-maybe-for-you/</guid>
-      <description>This post is related to my personal blog post here. So, let&amp;rsquo;s just start it.</description>
     </item>
     
   </channel>
