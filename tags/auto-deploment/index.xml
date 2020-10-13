@@ -6,10 +6,19 @@
     <description>Recent content in auto-deploment on Personal Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Sep 2020 21:05:00 +0700</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2020 22:11:00 +0700</lastBuildDate>
     
 	<atom:link href="https://ardityawahyu.github.io/tags/auto-deploment/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Our CI/CD Journey -- from Monolith to Micro-Servives</title>
+      <link>https://ardityawahyu.github.io/tech/our-ci-cd-journeyfrom-monolithto-micro-servives/</link>
+      <pubDate>Tue, 13 Oct 2020 22:11:00 +0700</pubDate>
+      
+      <guid>https://ardityawahyu.github.io/tech/our-ci-cd-journeyfrom-monolithto-micro-servives/</guid>
+      <description>** 📘 in collaboration with our Lead DevOps, Zackky Muhammad**</description>
+    </item>
     
     <item>
       <title>Thing I Learned at Kitabisa: Auto Deployment</title>

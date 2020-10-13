@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark"><head>
+    <title> Ardit | Our CI/CD Journey -- from Monolith to Micro-Servives </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="Call me Ardit">
+    
+    <link rel="stylesheet" href="https://ardityawahyu.github.io/css/style.min.5be3a155aa89a24586c761b1b5538c4040e3735ee32ac12a708dc1696c0982f5.css" integrity="sha256-W&#43;OhVaqJokWGx2GxtVOMQEDjc17jKsEqcI3BaWwJgvU=" crossorigin="anonymous" type="text/css"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="https://ardityawahyu.github.io/favicons/favicon.icofavicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ardityawahyu.github.io/favicons/favicon.icoapple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ardityawahyu.github.io/favicons/favicon.icofavicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ardityawahyu.github.io/favicons/favicon.icofavicon-16x16.png">
+    <link rel="canonical" href="https://ardityawahyu.github.io/tech/our-ci-cd-journeyfrom-monolithto-micro-servives/">
+    
+    
+    <script type="text/javascript" src="https://ardityawahyu.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
+    <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://ardityawahyu.github.io/images/site-feature-image.png"/>
+
+<meta name="twitter:title" content="Our CI/CD Journey -- from Monolith to Micro-Servives"/>
+<meta name="twitter:description" content="** 📘 in collaboration with our Lead DevOps, Zackky Muhammad**"/>
+
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="https://ardityawahyu.github.io/images/profpic.jpg" alt="profile picture">
+        <h3 title=""><a href="/">Hello</a></h3>
+        <div class="description">
+          <p>Call me Ardit</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="http://linkedin.com/in/ardityawahyu" rel="me" aria-label="Linkedin">
+          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://github.com/ardityawahyu/" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://twitter.com/ardityawahyu" rel="me" aria-label="twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:wahyu.arditya@gmail.com" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Ardit 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    <ul class="nav" id="navMenu">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/tech/" title="">Software Engineering</a></li>
+        
+        
+        <li><a  href="/blog/" title="">Personal&#39;s Blog</a></li>
+        
+        
+        <li class="theme-switch-item">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+        </li>
+    </ul>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Our CI/CD Journey -- from Monolith to Micro-Servives
+        </h3>
+        
+        </div>
+
+    <blockquote>
+<p>** 📘 in collaboration with our Lead DevOps, <a href="https://www.linkedin.com/in/zackijack%5D(https://www.linkedin.com/in/zackijack)">Zackky Muhammad</a>**</p>
+</blockquote>
+<p>Migrating from monolith to micro-services is not just about how do we analyse and just code it but also how we can deploy it. 2 years since I join Kitabisa and we&rsquo;re still have a big adventures on this. Complex, much work to do and yet exciting! This is our journey so far.</p>
+<p><img src="/images/0003-cdpipeline.jpg" alt="CICD Example"></p>
+<blockquote>
+<p>source: <a href="https://www.linode.com/docs/development/ci/introduction-ci-cd/">https://www.linode.com/docs/development/ci/introduction-ci-cd/</a></p>
+</blockquote>
+<p>p.s: image above is not our current CI/CD, it&rsquo;s just an example 😁</p>
+<h2 id="laravel-forge">Laravel Forge</h2>
+<p>On monolith era, as it based on PHP we are using <a href="https://forge.laravel.com/">Laravel Forge</a> to handle the deployment. The deployment script separate our monolith to 4 functions: the main user-facing product kitabisa.com, the api that used by our mobile app, the cron and the internal tools. All done whenever a push is happen to our master branch. A manual thing is still need to do before tough, edit the config file when needed. The pseudo code is quite like this.</p>
+<pre><code>1. git pull origin master
+2. copy index &amp; config from private bucket
+3. composer install
+4. restart php fpm (as we are using OPCache)
+</code></pre><blockquote>
+<p><a href="https://www.sitepoint.com/understanding-opcache/">about OPCache</a></p>
+</blockquote>
+<p><strong>The Legacy Story</strong></p>
+<p>We are using one server only to serve our app at first (well, it&rsquo;s obvious) and the scaling is just vertical. Our app is stateful. At that time on Digital Ocean, once we do the scale up, we can&rsquo;t undo to scale it down and as Kitabisa traffic is sometimes unpredictable, especially when big things happen (e.g. Palu Earthquake at 2018), the resource become unused when the event is done overtime. Traffic back to normal, but not for the cost.</p>
+<p>We go to multi-server, place the state to redis so that our app become stateless and adding the load balancer. The scaling is manual, and spin-up new server is slow. Usually late to handle sudden big traffic. Digital Ocean is cheap, but not scalable.</p>
+<h2 id="jenkins">Jenkins</h2>
+<p>We&rsquo;re trying to build our first micro-service and it&rsquo;s start with payment service. As this is build with Go, our infra decide to try the deployment pipeline with <a href="https://www.jenkins.io/">Jenkins</a>. We&rsquo;re also start optimising AWS cloud instead using our current Digital Ocean. AWS ECS is our choice for this time seeing that this is our first service and we want to containerised it. We&rsquo;re using <code>staging</code> branch strategy here, so everything that push to the staging automatically build &amp; deployed to our staging environment.</p>
+<p>The <strong>build</strong> is doing the <code>go dep / glide</code> (go modules is not officially released yet), <code>go build</code> then make it to docker image. Then <strong>push</strong> the image to ECR (Container Registry), then update Task Definition to deploy the image.</p>
+<blockquote>
+<p>Task Definition: this from AWS ECS, it&rsquo;s like config file for deployment.</p>
+</blockquote>
+<p>For production, there&rsquo;s still need human touch to click the &ldquo;Build&rdquo; and &ldquo;Run&rdquo; action to deploy it after the code is pushed to master. We want to prevent human error risk after all if deployment done automatically with just merging PR. The second Go-based service is come, and this Jenkins is still our solution. This service comes with our changing to database migration too, but we will tell you about it later.</p>
+<h2 id="circleci-and-gke">CircleCI and GKE</h2>
+<p>Our services is starting to grow gradually and using Jenkins is out of option as we need to maintain it ourselves and we want to keep a lean team (just 2 strong men for DevOps!). We may also not using best practice when starting the CI/CD with it and it becomes &ldquo;dirty&rdquo;. So we need the managed one and we choose CircleCI. We got introduced about Kubernetes (K8s) from Gojek and found out that K8s is not used only for big applications, so here comes the Kubernetes era at Kitabisa.</p>
+<p>We&rsquo;re also using <a href="https://helm.sh/">helm</a> to make life easier — well, who is not using helm when it comes to Kubernetes these days? Have you ever using <code>brew, apt, npm, chocolatey</code> on your macOS, Linux or Windows ? It is quite the same with helm for K8s with more feature not just package manager.</p>
+<p>In CircleCI it&rsquo;s all running within the container, so the host is &ldquo;clean&rdquo;. These are the steps we do to prepare our CI/CD on CircleCI, the steps may similar between any managed CI/CD services.</p>
+<ul>
+<li>Create CircleCI orbs. It&rsquo;s jobs, a collection of steps that CircleCI will do on the pipeline. E.g.: build the code, test it, create image, etc.</li>
+<li>Connect CircleCI to our Github, so that CircleCI can watch event which will trigger the jobs.</li>
+<li>Connect CircleCI with our infra on GCP through gcloud CLI. With this we can also get our K8s&rsquo;s context.</li>
+<li>Setup CircleCI context, for separating our environments: development, staging, UAT and production.</li>
+<li>Make template (called Charts) with helm, so that any common things need to install can be simplified.
+Helm will compile the template, build the manifest, then do apply to K8s.</li>
+</ul>
+<p>With all that ready, engineer can just easily write the <code>.yaml</code> file on the repository. Put the memory &amp; cpu needed for each service, the replica, whether the service is published or just accessed internally, we need to just write on the files for each environment. At this time, we&rsquo;re still using the staging branch strategy. We also now have development and UAT environment. Anything that pushed to <code>dev-*</code> branch will be deployed to development env, <code>staging</code> branch to staging env and <code>master</code> branch to UAT. For production, we just need to build the release tag.</p>
+<h3 id="why-not-stay-with-aws-ecs">Why not stay with AWS ECS</h3>
+<p>As stated that we want to keep a lean team for our DevOps, found out that ECS is not quite easy to implement. Hard to automate, research is limited, and too much dependent to another AWS services so it need to be setup one by one. It&rsquo;s just not what we expect from K8s. While on GKE, we can do all the setup just within this one service.</p>
+<p>We were also have experienced our service is down caused by the container can send the log to our log collector and somehow it is hard &amp; slow to spin it up again.</p>
+<h2 id="whats-next">What’s Next?</h2>
+<p>Deployment becoming more complex and now we&rsquo;re trying to implementing our CI/CD using Github Actions. We&rsquo;re still on POC to some services, so the story is not completed yet. We&rsquo;ll back at you when it&rsquo;s all done.</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+        
+    <span class="separator"><a class="tag" href="/tags/jenkins/">jenkins</a><a class="tag" href="/tags/auto-deploment/">auto-deploment</a><a class="tag" href="/tags/ci-cd/">ci-cd</a><a class="tag" href="/tags/circleci/">circleci</a><a class="tag" href="/tags/kubernetes/">kubernetes</a></span>
+
+      </div>
+    </div>
+
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="https://ardityawahyu.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="https://ardityawahyu.github.io/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="https://ardityawahyu.github.io/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-176061324-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+</html></body>
+
+</html>
