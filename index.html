@@ -1,254 +1,424 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark"><head>
-    <title> Ardit | Personal Site </title>
-    <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-    <meta name="description" content="Call me Ardit">
-    
-    <link rel="stylesheet" href="https://ardityawahyu.github.io/css/style.min.5be3a155aa89a24586c761b1b5538c4040e3735ee32ac12a708dc1696c0982f5.css" integrity="sha256-W&#43;OhVaqJokWGx2GxtVOMQEDjc17jKsEqcI3BaWwJgvU=" crossorigin="anonymous" type="text/css"><link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    
-    <link rel="shortcut icon" href="https://ardityawahyu.github.io/favicons/favicon.icofavicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="https://ardityawahyu.github.io/favicons/favicon.icoapple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://ardityawahyu.github.io/favicons/favicon.icofavicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://ardityawahyu.github.io/favicons/favicon.icofavicon-16x16.png">
-    <link rel="canonical" href="https://ardityawahyu.github.io/">
-    <link rel="alternate" type="application/rss+xml" href="https://ardityawahyu.github.io/index.xml" title="Personal Site" />
-    
-    
-    <script type="text/javascript" src="https://ardityawahyu.github.io/js/anatole-header.min.7e2fc0724240b28c6e214687e73a4a6eb6c196bbace546b9dc86e94cca120b5c.js" integrity="sha256-fi/AckJAsoxuIUaH5zpKbrbBlrus5Ua53IbpTMoSC1w=" crossorigin="anonymous"></script>
-    <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://ardityawahyu.github.io/images/site-feature-image.png"/>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arditya Wahyu — Head of Engineering & IT Consultant</title>
+  <meta name="description" content="Arditya Wahyu — Head of Engineering at Kitabisa.com & SalingJaga.com. Open for IT Consulting: Architecture Review, Performance Audit, Team Building." />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Arditya Wahyu — Head of Engineering & IT Consultant" />
+  <meta name="twitter:description" content="Head of Engineering at Kitabisa.com & SalingJaga.com. Open for IT Consulting." />
+  <meta property="og:title" content="Arditya Wahyu — Head of Engineering & IT Consultant" />
+  <meta property="og:description" content="Head of Engineering at Kitabisa.com & SalingJaga.com. Open for IT Consulting." />
+  <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/spa.css" />
+</head>
+<body>
 
-<meta name="twitter:title" content="Personal Site"/>
-<meta name="twitter:description" content="Call me Ardit"/>
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">AW</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#consulting" class="nav-link">Consulting</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#contact" class="nav-link cta-link">Hire Me</a></li>
+      </ul>
+    </div>
+  </nav>
 
-</head><body><div class="sidebar animated fadeInDown">
-    <div class="logo-title">
-      <div class="title">
-        <img src="https://ardityawahyu.github.io/images/profpic.jpg" alt="profile picture">
-        <h3 title=""><a href="/">Hello</a></h3>
-        <div class="description">
-          <p>Call me Ardit</p>
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          Open for IT Consulting
+        </div>
+        <h1 class="hero-title">
+          Hi, I'm <span class="highlight">Arditya Wahyu</span>
+        </h1>
+        <p class="hero-role">
+          <span class="role-icon">⚙️</span>
+          Head of Engineering at
+          <a href="https://kitabisa.com" target="_blank" rel="noopener" class="company-link">Kitabisa.com</a>
+          &amp;
+          <a href="https://salingjaga.com" target="_blank" rel="noopener" class="company-link">SalingJaga.com</a>
+        </p>
+        <p class="hero-desc">
+          I build and scale engineering teams, design resilient systems, and help organizations
+          navigate complex technical challenges. With years of experience leading engineering
+          at one of Indonesia's top social impact platforms, I bring both strategic vision
+          and hands-on technical depth.
+        </p>
+        <div class="hero-actions">
+          <a href="#consulting" class="btn btn-primary">
+            <i class="fa-solid fa-briefcase"></i> Explore Consulting
+          </a>
+          <a href="#blog" class="btn btn-secondary">
+            <i class="fa-solid fa-pen-nib"></i> Read My Blog
+          </a>
+        </div>
+        <div class="hero-social">
+          <a href="http://linkedin.com/in/ardityawahyu" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://github.com/ardityawahyu/" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://twitter.com/ardityawahyu" target="_blank" rel="noopener" aria-label="Twitter / X">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+          <a href="mailto:wahyu.arditya@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope"></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="image-wrapper">
+          <img src="images/profpic.jpg" alt="Arditya Wahyu" />
         </div>
       </div>
     </div>
-    <ul class="social-links">
-        
-        <li>
-        <a href="http://linkedin.com/in/ardityawahyu" rel="me" aria-label="Linkedin">
-          <i class="fa fa-2x fa-linkedin" aria-hidden="true"></i>
-        </a>          
-        </li>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
 
-        
-        <li>
-        <a href="https://github.com/ardityawahyu/" rel="me" aria-label="GitHub">
-          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
-        </a>          
-        </li>
-
-        
-        <li>
-        <a href="https://twitter.com/ardityawahyu" rel="me" aria-label="twitter">
-          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
-        </a>          
-        </li>
-
-        
-        <li>
-        <a href="mailto:wahyu.arditya@gmail.com" rel="me" aria-label="e-mail">
-          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
-        </a>          
-        </li>
-
-        
-    </ul>
-    <div class="footer">
-        <div class="by_farbox">&copy; Ardit 2020 </div>
+  <!-- ===== ABOUT ===== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Engineering Leader &amp; Builder</h2>
       </div>
-    </div>
-</div><div class="main">
-            <div class="page-top animated fadeInDown">
-    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false" >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    <ul class="nav" id="navMenu">
-        
-        
-        
-        <li><a class="current" href="/" title="">Home</a></li>
-        
-        
-        <li><a  href="/tech/" title="">Software Engineering</a></li>
-        
-        
-        <li><a  href="/blog/" title="">Personal&#39;s Blog</a></li>
-        
-        
-        <li class="theme-switch-item">
-        <a class="theme-switch" title="Switch Theme">
-            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
-        </a>
-        </li>
-    </ul>
-</div>
-
-            <div class="autopagerize_page_element">
-                <div class="content">
-  
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/tech/our-ci-cd-journeyfrom-monolithto-micro-servives/">Our CI/CD Journey -- from Monolith to Micro-Services</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>** 📘 in collaboration with our Lead DevOps, Zackky Muhammad**</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Tue, Oct 13, 2020</span>
-          <a class="tag" href="/tags/jenkins/">jenkins</a><a class="tag" href="/tags/auto-deploment/">auto-deploment</a><a class="tag" href="/tags/ci-cd/">ci-cd</a><a class="tag" href="/tags/circleci/">circleci</a><a class="tag" href="/tags/kubernetes/">kubernetes</a>       
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm Arditya Wahyu — an engineering leader passionate about building high-performing
+            teams and scalable systems. Currently serving as <strong>Head of Engineering</strong>
+            at <a href="https://kitabisa.com" target="_blank" rel="noopener">Kitabisa.com</a> and
+            <a href="https://salingjaga.com" target="_blank" rel="noopener">SalingJaga.com</a>,
+            Indonesia's leading crowdfunding and social protection platforms.
+          </p>
+          <p>
+            My journey spans from hands-on software engineering to leading cross-functional
+            engineering teams. I've navigated the challenges of scaling systems from monolith
+            to microservices, building CI/CD pipelines, and growing engineers into leaders.
+          </p>
+          <p>
+            I believe great engineering is about people first, then process, then technology.
+          </p>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fa-solid fa-users-gear"></i></div>
+            <h4>Engineering Leadership</h4>
+            <p>Building &amp; scaling high-performing engineering teams</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <h4>System Architecture</h4>
+            <p>Microservices, distributed systems, cloud-native design</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fa-solid fa-infinity"></i></div>
+            <h4>DevOps &amp; CI/CD</h4>
+            <p>Kubernetes, Jenkins, CircleCI, automated pipelines</p>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <h4>Tech Strategy</h4>
+            <p>Roadmap planning, process improvement, OKRs</p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/blog/thing-i-learned-at-kitabisa-auto-deployment/">Thing I Learned at Kitabisa: Auto Deployment</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>Lanjutan dari cerita ini, hal berikutnya yang gw pelajari adalah auto-deployment.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Mon, Sep 21, 2020</span>
-          <a class="tag" href="/tags/jenkins/">jenkins</a><a class="tag" href="/tags/auto-deploment/">auto-deploment</a><a class="tag" href="/tags/ci-cd/">ci-cd</a>       
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/tech/how-i-fail-managing-engineer-team/">How I Fail Managing Engineer Team</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>It is always a dilemma whether staying as an active coder or being manager.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Wed, Sep 9, 2020</span>
-          <a class="tag" href="/tags/manage/">manage</a><a class="tag" href="/tags/engineering-manager/">engineering manager</a><a class="tag" href="/tags/fail-manage-team/">fail manage team</a>       
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/blog/thing-i-learned-at-kitabisa-usia-bukan-masalah/">Thing I Learned at Kitabisa: Usia Bukan Masalah</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>&hellip;, tapi tetep dong jadi bahan bercandaan.
-Ngga semua yang gw pelajari di Kitabisa melulu soal software engineering.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Wed, Sep 2, 2020</span>
-          <a class="tag" href="/tags/inspiration/">inspiration</a><a class="tag" href="/tags/podcast/">podcast</a><a class="tag" href="/tags/ngamen/">ngamen</a>       
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/blog/saham-dasar-fundamental-analisis/">Saham: Dasar Fundamental Analisis</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>terinsipirasi dari buku &ldquo;Cara Simpel Berinvestasi di Pasar Modal&rdquo; Vol. 1 oleh Joeliardi Sunendar</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Mon, Aug 24, 2020</span>
-          <a class="tag" href="/tags/saham/">saham</a><a class="tag" href="/tags/stocks/">stocks</a><a class="tag" href="/tags/basic/">basic</a><a class="tag" href="/tags/fundamental/">fundamental</a>       
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/tech/git-maybe-for-you/">Git (maybe) for You</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>This post is related to my personal blog post here. So, let&rsquo;s just start it.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Sun, Aug 23, 2020</span>
-          <a class="tag" href="/tags/git/">git</a><a class="tag" href="/tags/legacy/">legacy</a>       
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="post animated fadeInDown">
-    <div class="post-title">
-      <h3><a href="/blog/thing-i-learned-at-kitabisa-git/">Thing I Learned at Kitabisa: Git</a>
-      </h3>
-    </div>
-    <div class="post-content"><div class="p_part"><p>Iya, Git yang ini. Buat mereka yang dekat dengan kehidupan software development seharusnya ngga asing dengan makhluk ini.</p></div>
-  
-  <div class="p_part"><p></p></div></div>
-    <div class="post-footer">
-      <div class="meta">
-        <div class="info"><i class="fa fa-sun-o"></i><span class="date">Sun, Aug 23, 2020</span>
-          <a class="tag" href="/tags/git/">git</a><a class="tag" href="/tags/legacy/">legacy</a>       
-        </div>
-      </div>
-    </div>
-  </div>
-  
-<div class="pagination">
-  
+  </section>
 
+  <!-- ===== CONSULTING ===== -->
+  <section class="section consulting" id="consulting">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">IT Consulting</span>
+        <h2 class="section-title">How I Can Help Your Business</h2>
+        <p class="section-subtitle">
+          Leveraging years of experience building and scaling engineering at Kitabisa &amp; SalingJaga,
+          I offer focused consulting engagements to help your team level up.
+        </p>
+      </div>
+      <div class="consulting-grid">
 
-</div>
+        <div class="consulting-card">
+          <div class="card-icon">
+            <i class="fa-solid fa-magnifying-glass-chart"></i>
+          </div>
+          <h3>Architecture Review</h3>
+          <p>
+            A deep-dive assessment of your current system architecture. I'll identify
+            bottlenecks, single points of failure, scalability gaps, and provide a
+            prioritized roadmap for improvement.
+          </p>
+          <ul class="card-list">
+            <li><i class="fa-solid fa-check"></i> System design evaluation</li>
+            <li><i class="fa-solid fa-check"></i> Scalability &amp; reliability assessment</li>
+            <li><i class="fa-solid fa-check"></i> Microservices migration strategy</li>
+            <li><i class="fa-solid fa-check"></i> Cloud infrastructure review</li>
+          </ul>
+          <a href="#contact" class="card-cta">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
 
-                </div>
+        <div class="consulting-card featured">
+          <div class="featured-badge">Most Popular</div>
+          <div class="card-icon">
+            <i class="fa-solid fa-gauge-high"></i>
+          </div>
+          <h3>Performance Audit</h3>
+          <p>
+            Comprehensive performance analysis of your application stack — from database
+            queries to API response times to frontend load performance. Get actionable
+            insights to make your product faster.
+          </p>
+          <ul class="card-list">
+            <li><i class="fa-solid fa-check"></i> Backend &amp; API profiling</li>
+            <li><i class="fa-solid fa-check"></i> Database query optimization</li>
+            <li><i class="fa-solid fa-check"></i> Load testing &amp; capacity planning</li>
+            <li><i class="fa-solid fa-check"></i> Monitoring &amp; observability setup</li>
+          </ul>
+          <a href="#contact" class="card-cta">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="consulting-card">
+          <div class="card-icon">
+            <i class="fa-solid fa-people-group"></i>
+          </div>
+          <h3>Team Building</h3>
+          <p>
+            Help your engineering organization grow effectively. From hiring strategy
+            to onboarding processes, engineering culture, and career ladders — I'll
+            help you build a team that ships great products.
+          </p>
+          <ul class="card-list">
+            <li><i class="fa-solid fa-check"></i> Engineering hiring strategy</li>
+            <li><i class="fa-solid fa-check"></i> Team structure &amp; org design</li>
+            <li><i class="fa-solid fa-check"></i> Engineering culture &amp; processes</li>
+            <li><i class="fa-solid fa-check"></i> Career ladder &amp; growth framework</li>
+          </ul>
+          <a href="#contact" class="card-cta">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+      </div>
+
+      <div class="consulting-note">
+        <i class="fa-solid fa-lightbulb"></i>
+        <p>
+          Not sure which service fits your needs? <a href="#contact">Send me a message</a> and
+          let's have a free 30-minute discovery call to figure out the best approach together.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BLOG ===== -->
+  <section class="section blog" id="blog">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Writing</span>
+        <h2 class="section-title">From the Blog</h2>
+        <p class="section-subtitle">
+          Thoughts on engineering leadership, system design, and lessons learned building
+          products at scale.
+        </p>
+      </div>
+      <div class="blog-grid">
+
+        <article class="blog-card">
+          <div class="blog-meta">
+            <span class="blog-category tech">Engineering</span>
+            <span class="blog-date">Oct 13, 2020</span>
+          </div>
+          <h3><a href="tech/our-ci-cd-journeyfrom-monolithto-micro-servives/">Our CI/CD Journey — from Monolith to Micro-Services</a></h3>
+          <p>In collaboration with our Lead DevOps, Zackky Muhammad — how we evolved our deployment pipeline from a monolithic setup to a full microservices CI/CD architecture.</p>
+          <div class="blog-tags">
+            <span class="tag">Jenkins</span>
+            <span class="tag">Kubernetes</span>
+            <span class="tag">CI/CD</span>
+          </div>
+          <a href="tech/our-ci-cd-journeyfrom-monolithto-micro-servives/" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-meta">
+            <span class="blog-category tech">Engineering</span>
+            <span class="blog-date">Sep 9, 2020</span>
+          </div>
+          <h3><a href="tech/how-i-fail-managing-engineer-team/">How I Fail Managing Engineer Team</a></h3>
+          <p>It is always a dilemma whether staying as an active coder or being a manager. Here's what I learned from my failures leading an engineering team.</p>
+          <div class="blog-tags">
+            <span class="tag">Leadership</span>
+            <span class="tag">Management</span>
+          </div>
+          <a href="tech/how-i-fail-managing-engineer-team/" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-meta">
+            <span class="blog-category tech">Engineering</span>
+            <span class="blog-date">Aug 23, 2020</span>
+          </div>
+          <h3><a href="tech/git-maybe-for-you/">Git (maybe) for You</a></h3>
+          <p>A practical introduction to Git for developers who haven't fully embraced version control yet. Why it matters and how to get started.</p>
+          <div class="blog-tags">
+            <span class="tag">Git</span>
+            <span class="tag">DevOps</span>
+          </div>
+          <a href="tech/git-maybe-for-you/" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-meta">
+            <span class="blog-category personal">Personal</span>
+            <span class="blog-date">Sep 21, 2020</span>
+          </div>
+          <h3><a href="blog/thing-i-learned-at-kitabisa-auto-deployment/">Thing I Learned at Kitabisa: Auto Deployment</a></h3>
+          <p>Lanjutan dari cerita ini, hal berikutnya yang gw pelajari adalah auto-deployment — bagaimana Kitabisa mengotomasi proses deployment.</p>
+          <div class="blog-tags">
+            <span class="tag">Jenkins</span>
+            <span class="tag">Auto Deploy</span>
+          </div>
+          <a href="blog/thing-i-learned-at-kitabisa-auto-deployment/" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-meta">
+            <span class="blog-category personal">Personal</span>
+            <span class="blog-date">Sep 2, 2020</span>
+          </div>
+          <h3><a href="blog/thing-i-learned-at-kitabisa-usia-bukan-masalah/">Thing I Learned at Kitabisa: Usia Bukan Masalah</a></h3>
+          <p>Ngga semua yang gw pelajari di Kitabisa melulu soal software engineering. Tentang usia, pengalaman, dan perspektif yang berubah.</p>
+          <div class="blog-tags">
+            <span class="tag">Inspiration</span>
+            <span class="tag">Personal</span>
+          </div>
+          <a href="blog/thing-i-learned-at-kitabisa-usia-bukan-masalah/" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+        <article class="blog-card">
+          <div class="blog-meta">
+            <span class="blog-category personal">Personal</span>
+            <span class="blog-date">Aug 24, 2020</span>
+          </div>
+          <h3><a href="blog/saham-dasar-fundamental-analisis/">Saham: Dasar Fundamental Analisis</a></h3>
+          <p>Terinspirasi dari buku "Cara Simpel Berinvestasi di Pasar Modal" Vol. 1 oleh Joeliardi Sunendar — dasar-dasar analisis fundamental saham.</p>
+          <div class="blog-tags">
+            <span class="tag">Saham</span>
+            <span class="tag">Investasi</span>
+          </div>
+          <a href="blog/saham-dasar-fundamental-analisis/" class="read-more">Read More <i class="fa-solid fa-arrow-right"></i></a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-subtitle">
+          Whether you need an architecture review, performance audit, or help building
+          your engineering team — I'd love to hear about your challenges.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:wahyu.arditya@gmail.com">wahyu.arditya@gmail.com</a>
             </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="http://linkedin.com/in/ardityawahyu" target="_blank" rel="noopener">linkedin.com/in/ardityawahyu</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/ardityawahyu/" target="_blank" rel="noopener">github.com/ardityawahyu</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fa-brands fa-x-twitter"></i></div>
+            <div>
+              <h4>Twitter / X</h4>
+              <a href="https://twitter.com/ardityawahyu" target="_blank" rel="noopener">@ardityawahyu</a>
+            </div>
+          </div>
         </div>
+        <div class="contact-cta-box">
+          <div class="cta-icon"><i class="fa-solid fa-rocket"></i></div>
+          <h3>Ready to start a project?</h3>
+          <p>
+            Send me an email with a brief description of your challenge and I'll get
+            back to you within 24 hours to schedule a discovery call.
+          </p>
+          <a href="mailto:wahyu.arditya@gmail.com?subject=IT Consulting Inquiry" class="btn btn-primary btn-large">
+            <i class="fa-solid fa-paper-plane"></i> Send Me a Message
+          </a>
+          <p class="cta-note">
+            <i class="fa-solid fa-clock"></i> Free 30-min discovery call included
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="footer-logo">AW</span>
+          <p>Arditya Wahyu — Head of Engineering &amp; IT Consultant</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#consulting">Consulting</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-social">
+          <a href="http://linkedin.com/in/ardityawahyu" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/ardityawahyu/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="https://twitter.com/ardityawahyu" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="mailto:wahyu.arditya@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Arditya Wahyu. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/spa.js"></script>
 </body>
-
-
-
-<script type="text/javascript" src="https://ardityawahyu.github.io/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
-
-
-
-
-<script type="text/javascript" src="https://ardityawahyu.github.io/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
-
-<script type="text/javascript" src="https://ardityawahyu.github.io/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script>
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-176061324-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-</html></body>
-
 </html>
