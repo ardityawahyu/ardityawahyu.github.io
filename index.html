@@ -3,13 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Arditya Wahyu — Head of Engineering & IT Consultant</title>
-  <meta name="description" content="Arditya Wahyu — Head of Engineering at Kitabisa.com & SalingJaga.com. Open for IT Consulting: Architecture Review, Performance Audit, Team Building." />
+  <meta name="color-scheme" content="dark" />
+  <title>Arditya Wahyu — Head of Engineering &amp; IT Consultant</title>
+  <meta name="description" content="Arditya Wahyu — Head of Engineering at Kitabisa.com &amp; SalingJaga.com. Open for IT Consulting: Architecture Review, Performance Audit, Team Building." />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Arditya Wahyu — Head of Engineering & IT Consultant" />
-  <meta name="twitter:description" content="Head of Engineering at Kitabisa.com & SalingJaga.com. Open for IT Consulting." />
-  <meta property="og:title" content="Arditya Wahyu — Head of Engineering & IT Consultant" />
-  <meta property="og:description" content="Head of Engineering at Kitabisa.com & SalingJaga.com. Open for IT Consulting." />
+  <meta name="twitter:title" content="Arditya Wahyu — Head of Engineering &amp; IT Consultant" />
+  <meta name="twitter:description" content="Head of Engineering at Kitabisa.com &amp; SalingJaga.com. Open for IT Consulting." />
+  <meta property="og:title" content="Arditya Wahyu — Head of Engineering &amp; IT Consultant" />
+  <meta property="og:description" content="Head of Engineering at Kitabisa.com &amp; SalingJaga.com. Open for IT Consulting." />
+  <meta name="theme-color" content="#1c1917" />
   <link rel="shortcut icon" href="favicons/favicon.ico" type="image/x-icon" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,11 +21,13 @@
 </head>
 <body>
 
+  <a href="#main-content" class="skip-link">Skip to content</a>
+
   <!-- ===== NAVBAR ===== -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
       <a href="#home" class="nav-logo">AW</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links" id="navLinks">
@@ -37,19 +41,20 @@
   </nav>
 
   <!-- ===== HERO ===== -->
-  <section class="hero" id="home">
-    <div class="hero-bg"></div>
+  <section class="hero" id="home" aria-label="Introduction">
+    <div id="main-content"></div>
+    <div class="hero-bg" aria-hidden="true"></div>
     <div class="hero-container">
       <div class="hero-content">
         <div class="hero-badge">
-          <span class="badge-dot"></span>
+          <span class="badge-dot" aria-hidden="true"></span>
           Open for IT Consulting
         </div>
         <h1 class="hero-title">
           Hi, I'm <span class="highlight">Arditya Wahyu</span>
         </h1>
         <p class="hero-role">
-          <span class="role-icon">⚙️</span>
+          <span class="role-icon" aria-hidden="true">⚙️</span>
           Head of Engineering at
           <a href="https://kitabisa.com" target="_blank" rel="noopener" class="company-link">Kitabisa.com</a>
           &amp;
@@ -63,35 +68,35 @@
         </p>
         <div class="hero-actions">
           <a href="#consulting" class="btn btn-primary">
-            <i class="fa-solid fa-briefcase"></i> Explore Consulting
+            <i class="fa-solid fa-briefcase" aria-hidden="true"></i> Explore Consulting
           </a>
           <a href="#blog" class="btn btn-secondary">
-            <i class="fa-solid fa-pen-nib"></i> Read My Blog
+            <i class="fa-solid fa-pen-nib" aria-hidden="true"></i> Read My Blog
           </a>
         </div>
         <div class="hero-social">
-          <a href="http://linkedin.com/in/ardityawahyu" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <i class="fa-brands fa-linkedin"></i>
+          <a href="https://linkedin.com/in/ardityawahyu" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
           </a>
           <a href="https://github.com/ardityawahyu/" target="_blank" rel="noopener" aria-label="GitHub">
-            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
           </a>
           <a href="https://twitter.com/ardityawahyu" target="_blank" rel="noopener" aria-label="Twitter / X">
-            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
           </a>
-          <a href="mailto:wahyu.arditya@gmail.com" aria-label="Email">
-            <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:workwithardit@gmail.com" aria-label="Email">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
           </a>
         </div>
       </div>
       <div class="hero-image">
         <div class="image-wrapper">
-          <img src="images/profpic.jpg" alt="Arditya Wahyu" />
+          <img src="images/profpic.jpg" alt="Arditya Wahyu" width="340" height="340" fetchpriority="high" />
         </div>
       </div>
     </div>
     <a href="#about" class="scroll-down" aria-label="Scroll down">
-      <i class="fa-solid fa-chevron-down"></i>
+      <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
     </a>
   </section>
 
@@ -122,22 +127,22 @@
         </div>
         <div class="skills-grid">
           <div class="skill-card">
-            <div class="skill-icon"><i class="fa-solid fa-users-gear"></i></div>
+            <div class="skill-icon"><i class="fa-solid fa-users-gear" aria-hidden="true"></i></div>
             <h4>Engineering Leadership</h4>
             <p>Building &amp; scaling high-performing engineering teams</p>
           </div>
           <div class="skill-card">
-            <div class="skill-icon"><i class="fa-solid fa-diagram-project"></i></div>
+            <div class="skill-icon"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i></div>
             <h4>System Architecture</h4>
             <p>Microservices, distributed systems, cloud-native design</p>
           </div>
           <div class="skill-card">
-            <div class="skill-icon"><i class="fa-solid fa-infinity"></i></div>
+            <div class="skill-icon"><i class="fa-solid fa-infinity" aria-hidden="true"></i></div>
             <h4>DevOps &amp; CI/CD</h4>
             <p>Kubernetes, Jenkins, CircleCI, automated pipelines</p>
           </div>
           <div class="skill-card">
-            <div class="skill-icon"><i class="fa-solid fa-chart-line"></i></div>
+            <div class="skill-icon"><i class="fa-solid fa-chart-line" aria-hidden="true"></i></div>
             <h4>Tech Strategy</h4>
             <p>Roadmap planning, process improvement, OKRs</p>
           </div>
@@ -161,7 +166,7 @@
 
         <div class="consulting-card">
           <div class="card-icon">
-            <i class="fa-solid fa-magnifying-glass-chart"></i>
+            <i class="fa-solid fa-magnifying-glass-chart" aria-hidden="true"></i>
           </div>
           <h3>Architecture Review</h3>
           <p>
@@ -170,18 +175,18 @@
             prioritized roadmap for improvement.
           </p>
           <ul class="card-list">
-            <li><i class="fa-solid fa-check"></i> System design evaluation</li>
-            <li><i class="fa-solid fa-check"></i> Scalability &amp; reliability assessment</li>
-            <li><i class="fa-solid fa-check"></i> Microservices migration strategy</li>
-            <li><i class="fa-solid fa-check"></i> Cloud infrastructure review</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> System design evaluation</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Scalability &amp; reliability assessment</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Microservices migration strategy</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Cloud infrastructure review</li>
           </ul>
-          <a href="#contact" class="card-cta">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contact" class="card-cta">Get Started <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
         </div>
 
         <div class="consulting-card featured">
           <div class="featured-badge">Most Popular</div>
           <div class="card-icon">
-            <i class="fa-solid fa-gauge-high"></i>
+            <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
           </div>
           <h3>Performance Audit</h3>
           <p>
@@ -190,17 +195,17 @@
             insights to make your product faster.
           </p>
           <ul class="card-list">
-            <li><i class="fa-solid fa-check"></i> Backend &amp; API profiling</li>
-            <li><i class="fa-solid fa-check"></i> Database query optimization</li>
-            <li><i class="fa-solid fa-check"></i> Load testing &amp; capacity planning</li>
-            <li><i class="fa-solid fa-check"></i> Monitoring &amp; observability setup</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Backend &amp; API profiling</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Database query optimization</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Load testing &amp; capacity planning</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Monitoring &amp; observability setup</li>
           </ul>
-          <a href="#contact" class="card-cta">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contact" class="card-cta">Get Started <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
         </div>
 
         <div class="consulting-card">
           <div class="card-icon">
-            <i class="fa-solid fa-people-group"></i>
+            <i class="fa-solid fa-people-group" aria-hidden="true"></i>
           </div>
           <h3>Team Building</h3>
           <p>
@@ -209,18 +214,18 @@
             help you build a team that ships great products.
           </p>
           <ul class="card-list">
-            <li><i class="fa-solid fa-check"></i> Engineering hiring strategy</li>
-            <li><i class="fa-solid fa-check"></i> Team structure &amp; org design</li>
-            <li><i class="fa-solid fa-check"></i> Engineering culture &amp; processes</li>
-            <li><i class="fa-solid fa-check"></i> Career ladder &amp; growth framework</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Engineering hiring strategy</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Team structure &amp; org design</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Engineering culture &amp; processes</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Career ladder &amp; growth framework</li>
           </ul>
-          <a href="#contact" class="card-cta">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+          <a href="#contact" class="card-cta">Get Started <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
         </div>
 
       </div>
 
       <div class="consulting-note">
-        <i class="fa-solid fa-lightbulb"></i>
+        <i class="fa-solid fa-lightbulb" aria-hidden="true"></i>
         <p>
           Not sure which service fits your needs? <a href="#contact">Send me a message</a> and
           let's have a free 30-minute discovery call to figure out the best approach together.
@@ -255,7 +260,7 @@
             <span class="tag">Engineering Manager</span>
             <span class="tag">People Manager</span>
           </div>
-          <a href="https://medium.com/inside-kitabisa/giving-personal-attention-da59b8988750" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://medium.com/inside-kitabisa/giving-personal-attention-da59b8988750" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
         </article>
 
         <article class="blog-card">
@@ -270,7 +275,7 @@
             <span class="tag">Remote Work</span>
             <span class="tag">Meetings</span>
           </div>
-          <a href="https://ardityawahyu.medium.com/cancel-your-meetings-8105ac0006a0" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://ardityawahyu.medium.com/cancel-your-meetings-8105ac0006a0" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
         </article>
 
         <article class="blog-card">
@@ -284,7 +289,7 @@
             <span class="tag">Engineering Initiative</span>
             <span class="tag">Tech Debt</span>
           </div>
-          <a href="https://medium.com/inside-kitabisa/menyiasati-inisiatif-engineering-8451f4d63d85" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://medium.com/inside-kitabisa/menyiasati-inisiatif-engineering-8451f4d63d85" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
         </article>
 
         <article class="blog-card">
@@ -299,7 +304,7 @@
             <span class="tag">Kubernetes</span>
             <span class="tag">CI/CD</span>
           </div>
-          <a href="https://medium.com/inside-kitabisa/our-ci-cd-journey-from-monolith-to-micro-servives-9e6787dc7274" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://medium.com/inside-kitabisa/our-ci-cd-journey-from-monolith-to-micro-servives-9e6787dc7274" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
         </article>
 
         <article class="blog-card">
@@ -313,7 +318,7 @@
             <span class="tag">Engineering Management</span>
             <span class="tag">Leadership</span>
           </div>
-          <a href="https://medium.com/inside-kitabisa/how-i-fail-managing-engineer-team-acba7b529f9a" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://medium.com/inside-kitabisa/how-i-fail-managing-engineer-team-acba7b529f9a" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
         </article>
 
         <article class="blog-card">
@@ -328,14 +333,14 @@
             <span class="tag">Legacy</span>
             <span class="tag">DevOps</span>
           </div>
-          <a href="https://ardityawahyu.medium.com/git-maybe-for-you-e8955be32d8e" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          <a href="https://ardityawahyu.medium.com/git-maybe-for-you-e8955be32d8e" target="_blank" rel="noopener" class="read-more">Read on Medium <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>
         </article>
 
       </div>
 
       <div class="blog-cta">
         <a href="https://ardityawahyu.medium.com/" target="_blank" rel="noopener" class="btn btn-secondary">
-          <i class="fa-brands fa-medium"></i> View All Posts on Medium
+          <i class="fa-brands fa-medium" aria-hidden="true"></i> View All Posts on Medium
         </a>
       </div>
     </div>
@@ -369,28 +374,28 @@
       <div class="contact-grid">
         <div class="contact-info">
           <div class="contact-item">
-            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
             <div>
               <h4>Email</h4>
-              <a href="mailto:wahyu.arditya@gmail.com">wahyu.arditya@gmail.com</a>
+              <a href="mailto:workwithardit@gmail.com">workwithardit@gmail.com</a>
             </div>
           </div>
           <div class="contact-item">
-            <div class="contact-icon"><i class="fa-brands fa-linkedin"></i></div>
+            <div class="contact-icon"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></div>
             <div>
               <h4>LinkedIn</h4>
-              <a href="http://linkedin.com/in/ardityawahyu" target="_blank" rel="noopener">linkedin.com/in/ardityawahyu</a>
+              <a href="https://linkedin.com/in/ardityawahyu" target="_blank" rel="noopener">linkedin.com/in/ardityawahyu</a>
             </div>
           </div>
           <div class="contact-item">
-            <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+            <div class="contact-icon"><i class="fa-brands fa-github" aria-hidden="true"></i></div>
             <div>
               <h4>GitHub</h4>
               <a href="https://github.com/ardityawahyu/" target="_blank" rel="noopener">github.com/ardityawahyu</a>
             </div>
           </div>
           <div class="contact-item">
-            <div class="contact-icon"><i class="fa-brands fa-x-twitter"></i></div>
+            <div class="contact-icon"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></div>
             <div>
               <h4>Twitter / X</h4>
               <a href="https://twitter.com/ardityawahyu" target="_blank" rel="noopener">@ardityawahyu</a>
@@ -398,17 +403,17 @@
           </div>
         </div>
         <div class="contact-cta-box">
-          <div class="cta-icon"><i class="fa-solid fa-rocket"></i></div>
+          <div class="cta-icon"><i class="fa-solid fa-rocket" aria-hidden="true"></i></div>
           <h3>Ready to start a project?</h3>
           <p>
             Send me an email with a brief description of your challenge and I'll get
-            back to you within 24 hours to schedule a discovery call.
+            back to you within 24&nbsp;hours to schedule a discovery call.
           </p>
-          <a href="mailto:wahyu.arditya@gmail.com?subject=IT Consulting Inquiry" class="btn btn-primary btn-large">
-            <i class="fa-solid fa-paper-plane"></i> Send Me a Message
+          <a href="mailto:workwithardit@gmail.com?subject=IT Consulting Inquiry" class="btn btn-primary btn-large">
+            <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Send Me a Message
           </a>
           <p class="cta-note">
-            <i class="fa-solid fa-clock"></i> Free 30-min discovery call included
+            <i class="fa-solid fa-clock" aria-hidden="true"></i> Free 30-min discovery call included
           </p>
         </div>
       </div>
@@ -431,10 +436,10 @@
           <a href="#contact">Contact</a>
         </div>
         <div class="footer-social">
-          <a href="http://linkedin.com/in/ardityawahyu" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://github.com/ardityawahyu/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="https://twitter.com/ardityawahyu" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="mailto:wahyu.arditya@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://linkedin.com/in/ardityawahyu" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+          <a href="https://github.com/ardityawahyu/" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          <a href="https://twitter.com/ardityawahyu" target="_blank" rel="noopener" aria-label="Twitter"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+          <a href="mailto:workwithardit@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
         </div>
       </div>
       <div class="footer-bottom">
